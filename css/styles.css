@@ -1,0 +1,62 @@
+:root { 
+    --primary-color: #757575;
+    --secondary-color: #212121;
+    --accent-color: #2196F3;
+}
+body {
+background-color: #FFFFFF;
+color: #757575;
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* Шапка */
+/* Лого */
+.logo-accent {
+    color: var(--accent-color);
+}
+.logo-header {
+    color: #000000;
+}
+/* Навигация */
+.site-nav .link {
+    color: var(--secondary-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* Контакты */
+.auth-nav .link {
+    color: var(--primary-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Главное */
+/* Главный герой */
+.section-title,
+.title {
+    color: var(--secondary-color);
+}
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* Особенности */
+
+/* Примеры работ */
+
+/* Команда */
+
+/* Подвал */
+/* Лого */
