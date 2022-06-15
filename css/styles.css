@@ -2,12 +2,13 @@
     --primary-color: #757575;
     --secondary-color: #212121;
     --accent-color: #2196F3;
+    --background-secondary-color: #F5F4FA;
+    --white-color: #ffffff;
 }
 body {
 background-color: #FFFFFF;
 color: #757575;
 }
-
 
 .list {
     list-style: none;
@@ -51,6 +52,19 @@ color: #757575;
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
+
+.radio-button {
+    color: var(--secondary-color);
+    background-color: var(--background-secondary-color);
+}
+
+.radio-button:hover,
+.radio-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Заказать услугу */
 
 /* Особенности */
 
