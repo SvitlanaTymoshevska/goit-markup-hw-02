@@ -61,6 +61,7 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
 }
 .button {
     color: #FFFFFF;
@@ -86,8 +87,10 @@ body {
     color: var(--secondary-color);
 }
 .features .title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Команда */
@@ -109,7 +112,7 @@ body {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    letter-spacing: inherit;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .radio-button:hover,
@@ -145,7 +148,7 @@ body {
     line-height: 1.7;
 }
 .footer .link {
-    color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer .link:hover,
 .footer .link:focus {
